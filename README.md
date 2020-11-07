@@ -30,7 +30,7 @@ Initial condition:
 The plate is assumed to be adiabatic. Hence, the temperature function's change on the edges of the plate is zero. This can be formulated into the following boundary conditions:
 
 Boundary conditions:
-- ![equation](https://latex.codecogs.com/gif.latex?\inline&space;\frac{\partial{T(x,y,t)}}{\partial{x}}=0&space;for&space;x=0&space;or&space;x=w) (w = plate's width) 
+- <img src="https://latex.codecogs.com/png.latex?\inline&space;\frac{\partial{T(x,y,t)}}{\partial{x}}=0&space;\&space;for&space;\&space;x=0&space;\&space;or&space;\&space;x=w" title="\frac{\partial{T(x,y,t)}}{\partial{x}}=0 \ for \ x=0 \ or \ x=w" />
 
 - ![equation](https://latex.codecogs.com/png.latex?\frac{\partial{T(x,y,t)}}{\partial{y}}&space;=&space;0&space;\&space;$&space;for&space;$&space;y=0&space;\&space;$&space;or&space;\&space;x=h&space;\)) (h = plate's height) 
 
