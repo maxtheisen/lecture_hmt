@@ -9,10 +9,10 @@ Please open the file named TransportPhenomenaLab.ipynb first. It contains the in
 __As you will see, the notebook consists of four parts:__
 - Real data for comparison
 - A finite-differences implementation to solve the Partial Differential Equation (PDE) and animate the results
-- A section to define the thermal diffusivity <img src="https://latex.codecogs.com/png.latex?\inline&space;alpha" title="alpha" />
+- A section to define the thermal diffusivity <img src="https://latex.codecogs.com/png.latex?\inline&space;\alpha" title="\alpha" />
 - A comparison between real values and calculated ones
 
-__First, choose a value for the thermal diffusivity, here called $\alpha$, for Section 2. Then, run all Sections 0 to 4 to get a result. If you want to change the parameter alpha afterwards, rerun Section 2-4 after changing alpha__
+__First, choose a value for the thermal diffusivity, here called <img src="https://latex.codecogs.com/png.latex?\inline&space;\alpha" title="\alpha" />, for Section 2. Then, run all Sections 0 to 4 to get a result. If you want to change the parameter alpha afterwards, rerun Section 2-4 after changing alpha__
 
 You can run the cells either by clicking on the cell and then on Run or press shift+enter
 
