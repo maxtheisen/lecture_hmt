@@ -29,10 +29,9 @@ Initial condition:
 The plate is assumed to be adiabatic. Hence, the temperature function's change on the edges of the plate is zero. This can be formulated into the following boundary conditions:
 
 Boundary conditions:
-- <img src="https://latex.codecogs.com/png.latex?\inline&space;\frac{\partial{T(x,y,t)}}{\partial{x}}=0&space;\&space;for&space;\&space;x=0&space;\&space;or&space;\&space;x=w" title="\frac{\partial{T(x,y,t)}}{\partial{x}}=0 \ for \ x=0 \ or \ x=w" />
+- <img src="https://latex.codecogs.com/png.latex?\inline&space;\frac{\partial{T(x,y,t)}}{\partial{x}}&space;=&space;0&space;\&space;for&space;\&space;x=0&space;\&space;or&space;\&space;x=w&space;\&space;(w&space;=&space;plate's&space;\&space;width)" title="\frac{\partial{T(x,y,t)}}{\partial{x}} = 0 \ for \ x=0 \ or \ x=w \ (w = plate's \ width)" />
 
-- <img src="https://latex.codecogs.com/png.latex?\inline&space;\frac{\partial{T(x,y,t)}}{\partial{y}}&space;=&space;0&space;\&space;for&space;\&space;y=0&space;\&space;or&space;\&space;x=h&space;\" title="\frac{\partial{T(x,y,t)}}{\partial{y}} = 0 \ for \ y=0 \ or \ x=h \" /> (h = plate's height) 
-
+- <img src="https://latex.codecogs.com/png.latex?\inline&space;\frac{\partial{T(x,y,t)}}{\partial{y}}&space;=&space;0&space;\&space;for&space;\&space;y=0&space;\&space;or&space;\&space;x=h&space;\&space;(h&space;=&space;plate's&space;\&space;height)" title="\frac{\partial{T(x,y,t)}}{\partial{y}} = 0 \ for \ y=0 \ or \ x=h \ (h = plate's \ height)" />
 To account for the isothermal left side, we will furthermore define a constraint:
 
 - ![equation](https://latex.codecogs.com/png.latex?T(x=0,y,t)&space;=&space;T_{hot}) : We assume that at all time, the left edge of the plate is at temperature ![equation](https://latex.codecogs.com/png.latex?\inline&space;T_{hot})
