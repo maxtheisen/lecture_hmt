@@ -32,7 +32,7 @@ The plate is assumed to be adiabatic. Hence, the temperature function's change o
 Boundary conditions:
 - <img src="https://latex.codecogs.com/png.latex?\inline&space;\frac{\partial{T(x,y,t)}}{\partial{x}}=0&space;\&space;for&space;\&space;x=0&space;\&space;or&space;\&space;x=w" title="\frac{\partial{T(x,y,t)}}{\partial{x}}=0 \ for \ x=0 \ or \ x=w" />
 
-- ![equation](https://latex.codecogs.com/png.latex?\frac{\partial{T(x,y,t)}}{\partial{y}}&space;=&space;0&space;\&space;$&space;for&space;$&space;y=0&space;\&space;$&space;or&space;\&space;x=h&space;\)) (h = plate's height) 
+- <img src="https://latex.codecogs.com/png.latex?\inline&space;\frac{\partial{T(x,y,t)}}{\partial{y}}&space;=&space;0&space;\&space;for&space;\&space;y=0&space;\&space;or&space;\&space;x=h&space;\" title="\frac{\partial{T(x,y,t)}}{\partial{y}} = 0 \ for \ y=0 \ or \ x=h \" /> (h = plate's height) 
 
 To account for the isothermal left side, we will furthermore define a constraint:
 
@@ -40,7 +40,7 @@ To account for the isothermal left side, we will furthermore define a constraint
 
 
 ### Finite Difference Discretization of Temperature equation
-For a ![equation](https://latex.codecogs.com/png.latex?\inline&space;x_n,&space;y_n&space;\&space;and&space;\&space;time&space;\&space;t_n) the temperature ![equation](https://latex.codecogs.com/png.latex?\inline&space;T_{x_n,y_n}^{n&plus;1}) at the next time step is approximated by:
+For a <img src="https://latex.codecogs.com/png.latex?\inline&space;x_n,&space;y_n&space;and&space;time&space;t_n" title="x_n, y_n and time t_n" /> the temperature ![equation](https://latex.codecogs.com/png.latex?\inline&space;T_{x_n,y_n}^{n&plus;1}) at the next time step is approximated by:
 
 ![equation](https://latex.codecogs.com/png.latex?\inline&space;\Large&space;T_{x_n,y_n}^{t_{n&plus;1}}&space;=&space;T_{x_n,y_n}^{t_n}&space;&plus;&space;\alpha&space;\Delta&space;t&space;(\frac{T_{x_n,y_{n&plus;1}}^{t_n}&space;-&space;2&space;T_{x_n,y_{n}}^{t_n}&plus;&space;T_{x_n,y_{n-1}}^{t_n}}{\Delta&space;y^2}&space;&plus;&space;\frac{T_{x_{n&plus;1},y_{n}}^{t_n}&space;-&space;2&space;T_{x_n,y_{n}}^{t_n}&space;&plus;&space;T_{x_{n-1},y_{n}}^{t_n}}{\Delta&space;x^2}))
 
