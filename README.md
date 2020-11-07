@@ -40,7 +40,7 @@ To account for the isothermal left side, we will furthermore define a constraint
 
 
 ### Finite Difference Discretization of Temperature equation
-For a <img src="https://latex.codecogs.com/png.latex?\inline&space;x_n,&space;y_n&space;and&space;time&space;t_n" title="x_n, y_n and time t_n" /> the temperature ![equation](https://latex.codecogs.com/png.latex?\inline&space;T_{x_n,y_n}^{n&plus;1}) at the next time step is approximated by:
+For a <img src="https://latex.codecogs.com/png.latex?\inline&space;x_n,&space;y_n&space;\&space;and&space;\&space;time&space;\&space;t_n" title="x_n, y_n \ and \ time \ t_n" /> the temperature ![equation](https://latex.codecogs.com/png.latex?\inline&space;T_{x_n,y_n}^{n&plus;1}) at the next time step is approximated by:
 
 ![equation](https://latex.codecogs.com/png.latex?\inline&space;\Large&space;T_{x_n,y_n}^{t_{n&plus;1}}&space;=&space;T_{x_n,y_n}^{t_n}&space;&plus;&space;\alpha&space;\Delta&space;t&space;(\frac{T_{x_n,y_{n&plus;1}}^{t_n}&space;-&space;2&space;T_{x_n,y_{n}}^{t_n}&plus;&space;T_{x_n,y_{n-1}}^{t_n}}{\Delta&space;y^2}&space;&plus;&space;\frac{T_{x_{n&plus;1},y_{n}}^{t_n}&space;-&space;2&space;T_{x_n,y_{n}}^{t_n}&space;&plus;&space;T_{x_{n-1},y_{n}}^{t_n}}{\Delta&space;x^2}))
 
