@@ -30,9 +30,9 @@ Initial condition:
 The plate is assumed to be adiabatic. Hence, the temperature function's change on the edges of the plate is zero. This can be formulated into the following boundary conditions:
 
 Boundary conditions:
-- ![equation](https://latex.codecogs.com/png.latex?\frac{\partial{T(x,y,t)}}{\partial{x}}&space;=&space;0&space;\&space;$&space;for&space;$&space;x=0&space;\&space;or&space;\&space;x=w&space;\)) (w = plate's width) 
+- ![equation](https://latex.codecogs.com/png.latex?\frac{\partial{T(x,y,t)}}{\partial{x}}&space;=&space;0&space;\&space;$&space;for&space;$&space;x=0&space;$&space;\&space;or&space;\&space;x=w&space;\)) (w = plate's width) 
 
-- ![equation](https://latex.codecogs.com/png.latex?\frac{\partial{T(x,y,t)}}{\partial{y}}&space;=&space;0&space;\&space;$&space;for&space;$&space;y=0&space;\&space;or&space;\&space;x=h&space;\)) (h = plate's height) 
+- ![equation](https://latex.codecogs.com/png.latex?\frac{\partial{T(x,y,t)}}{\partial{y}}&space;=&space;0&space;\&space;$&space;for&space;$&space;y=0&space;$&space;\&space;or&space;\&space;x=h&space;\)) (h = plate's height) 
 
 To account for the isothermal left side, we will furthermore define a constraint:
 
