@@ -24,7 +24,7 @@ You can run the cells either by clicking on the cell and then on Run or press sh
 To solve this partial differential equation (PDE), we need to define one initial condition (accounting for time) and four boundary conditions (accounting for space)
 
 Initial condition:
-- ![equation](https://latex.codecogs.com/png.latex?\inline&space;T(x\neq&space;0,y,t=0)&space;=&space;T_{initial}) : At time t=0, the rest of the plate is cold
+- <img src="https://latex.codecogs.com/png.latex?\inline&space;T(x\neq&space;0,y,t=0)&space;=&space;T_{initial}&space;:&space;At&space;\&space;time&space;\&space;t=0,&space;\&space;the&space;\&space;rest&space;\&space;of&space;\&space;the&space;\&space;plate&space;\&space;is&space;\&space;cold" title="T(x\neq 0,y,t=0) = T_{initial} : At \ time \ t=0, \ the \ rest \ of \ the \ plate \ is \ cold" />
 
 The plate is assumed to be adiabatic. Hence, the temperature function's change on the edges of the plate is zero. This can be formulated into the following boundary conditions:
 
