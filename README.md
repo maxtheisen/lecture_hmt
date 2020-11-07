@@ -16,7 +16,7 @@ __First, choose a value for the thermal diffusivity, here called $\alpha$, for S
 
 You can run the cells either by clicking on the cell and then on Run or press shift+enter
 
-### Differential Heat Equation 
+### Differential heat equation 
 
 ![equation](https://latex.codecogs.com/png.latex?\Large&space;\frac{\partial{T(x,y,t)}}{\partial{t}}&space;=&space;\alpha\&space;(\frac{\partial^2{T(x,y,t)}}{\partial^2{x}}&space;&plus;&space;\frac{\partial^2{T(x,y,t)}}{\partial^2{y}}&space;)
 )
