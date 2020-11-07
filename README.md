@@ -1,4 +1,4 @@
-# lecture_hmt
+# Lecture on transport phenomena
 
 This repository contains two jupyter notebooks for the lecture on transport phenomena. 
 
