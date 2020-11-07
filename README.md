@@ -25,7 +25,7 @@ You can run the cells either by clicking on the cell and then on Run or press ct
 To solve this partial differential equation (PDE), we need to define one initial condition (accounting for time) and four boundary conditions (accounting for space)
 
 Initial condition:
-- ![equation](https://latex.codecogs.com/png.latex?T(x\neq&space;0,y,t=0)&space;=&space;T_{initial}&space;$&space;:&space;At&space;time&space;$t=0: At time $t=0$)), the rest of the plat is cold
+- ![equation](https://latex.codecogs.com/png.latex?T(x\neq&space;0,y,t=0)&space;=&space;T_{initial}&space;$&space;:&space;At&space;time&space;$t=0: At time $t=0$)), the rest of the plate is cold
 
 The plate is assumed to be adiabatic. Hence, the temperature function's change on the edges of the plate is zero. This can be formulated into the following boundary conditions:
 
@@ -36,7 +36,7 @@ Boundary conditions:
 
 To account for the isothermal left side, we will furthermore define a constraint:
 
-- ![equation](https://latex.codecogs.com/png.latex?T(x=0,y,t)&space;=&space;T_{hot})) : We assume that at all time, the left edge of the plate is at temperature $T_{hot}$
+- ![equation](https://latex.codecogs.com/png.latex?T(x=0,y,t)&space;=&space;T_{hot}) : We assume that at all time, the left edge of the plate is at temperature $T_{hot}$
 
 
 ### Finite Difference Discretization of Temperature equation
