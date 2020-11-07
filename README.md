@@ -2,7 +2,7 @@
 
 This repository contains two jupyter notebooks for the lecture on transport phenomena. 
 
-Please open the file named TransportPhenomenaLab.ipynb first. It contains the interactive assigment. To gain a deeper understanding of the contents shown in the lecture with more examples, look at TransportPhenomenaLab-Addition.ipynb. 
+Please open the file named TransportPhenomenaLab.ipynb first. It contains the interactive assigment. To gain a deeper understanding of the contents shown in the lecture with more examples, look at TransportPhenomenaLab-Addition.ipynb. Below is a short theoretical recap of solving the heat equation with finite differences. 
 
 ## The TransportPhenomenaLab notebook is designed for the lecture on transport phenomena 
 
