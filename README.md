@@ -42,7 +42,7 @@ To account for the isothermal left side, we will furthermore define a constraint
 ### Finite Difference Discretization of Temperature equation
 For a $x_n$, $y_n$ and time $t_n$, the temperature $T_{x_n,y_n}^{n+1}$ at the next time step $t_{n+1}$ can be approximated by:
 
-![equation](https://latex.codecogs.com/png.latex?\Large&space;T_{x_n,y_n}^{t_{n&plus;1}}&space;=&space;T_{x_n,y_n}^{t_n}&space;&plus;&space;\alpha&space;\Delta&space;t&space;(\frac{T_{x_n,y_{n&plus;1}}^{t_n}&space;-&space;2&space;T_{x_n,y_{n}}^{t_n}&plus;&space;T_{x_n,y_{n-1}}^{t_n}}{\Delta&space;y^2}&space;&plus;&space;\frac{T_{x_{n&plus;1},y_{n}}^{t_n}&space;-&space;2&space;T_{x_n,y_{n}}^{t_n}&space;&plus;&space;T_{x_{n-1},y_{n}}^{t_n}}{\Delta&space;x^2}))
+![equation](https://latex.codecogs.com/png.latex?\inline&space;\Large&space;T_{x_n,y_n}^{t_{n&plus;1}}&space;=&space;T_{x_n,y_n}^{t_n}&space;&plus;&space;\alpha&space;\Delta&space;t&space;(\frac{T_{x_n,y_{n&plus;1}}^{t_n}&space;-&space;2&space;T_{x_n,y_{n}}^{t_n}&plus;&space;T_{x_n,y_{n-1}}^{t_n}}{\Delta&space;y^2}&space;&plus;&space;\frac{T_{x_{n&plus;1},y_{n}}^{t_n}&space;-&space;2&space;T_{x_n,y_{n}}^{t_n}&space;&plus;&space;T_{x_{n-1},y_{n}}^{t_n}}{\Delta&space;x^2}))
 
 $x_{n+1},y_{n+1}$ and $x_{n-1},y_{n-1}$ are hereby the next and the former neighbour, respectively. 
 
