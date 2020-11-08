@@ -44,5 +44,5 @@ For a <img src="https://latex.codecogs.com/png.latex?\inline&space;x_n,&space;y_
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/maxtheisen/lecture_hmt/main?urlpath=https%3A%2F%2Fgithub.com%2Fmaxtheisen%2Flecture_hmt%2Fblob%2Fmain%2FTransportPhenomenaLab.ipynb)
 
-## Contribution
+## Contributions
 This repo was made by Artur Schweidtmann and Maximilian Theisen
