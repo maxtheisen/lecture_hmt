@@ -4,6 +4,8 @@ This repository contains two jupyter notebooks for the lecture on transport phen
 
 Please open the file named TransportPhenomenaLab.ipynb first. It contains the interactive assigment. To gain a deeper understanding of the contents shown in the lecture with more examples, look at TransportPhenomenaLab-Addition.ipynb. Below is a short theoretical recap of solving the heat equation with finite differences. 
 
+This repo was made by Artur Schweidtmann and Maximilian Theisen
+
 ## The TransportPhenomenaLab notebook is designed for the lecture on transport phenomena 
 
 __As you will see, the notebook consists of four parts:__
@@ -44,5 +46,4 @@ For a <img src="https://latex.codecogs.com/png.latex?\inline&space;x_n,&space;y_
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/maxtheisen/lecture_hmt/main?urlpath=https%3A%2F%2Fgithub.com%2Fmaxtheisen%2Flecture_hmt%2Fblob%2Fmain%2FTransportPhenomenaLab.ipynb)
 
-## Contributions
-This repo was made by Artur Schweidtmann and Maximilian Theisen
+
