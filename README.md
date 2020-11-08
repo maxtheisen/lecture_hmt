@@ -43,3 +43,6 @@ For a <img src="https://latex.codecogs.com/png.latex?\inline&space;x_n,&space;y_
 ![equation](https://latex.codecogs.com/png.latex?\inline&space;\Large&space;T_{x_n,y_n}^{t_{n&plus;1}}&space;=&space;T_{x_n,y_n}^{t_n}&space;&plus;&space;\alpha&space;\Delta&space;t&space;(\frac{T_{x_n,y_{n&plus;1}}^{t_n}&space;-&space;2&space;T_{x_n,y_{n}}^{t_n}&plus;&space;T_{x_n,y_{n-1}}^{t_n}}{\Delta&space;y^2}&space;&plus;&space;\frac{T_{x_{n&plus;1},y_{n}}^{t_n}&space;-&space;2&space;T_{x_n,y_{n}}^{t_n}&space;&plus;&space;T_{x_{n-1},y_{n}}^{t_n}}{\Delta&space;x^2}))
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/maxtheisen/lecture_hmt/main?urlpath=https%3A%2F%2Fgithub.com%2Fmaxtheisen%2Flecture_hmt%2Fblob%2Fmain%2FTransportPhenomenaLab.ipynb)
+
+## Contribution
+This repo was made by Artur Schweidtmann and Maximilian Theisen
